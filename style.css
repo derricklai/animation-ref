@@ -1,0 +1,46 @@
+* {
+  font-family: 'Helvetica';
+  font-weight: lighter;
+}
+section {
+  display: grid;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px;
+}
+div {
+  width: 200px;
+  height: 50px;
+  background: #959fb7;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 1s infinite;
+}
+
+#div1 {animation-timing-function: cubic-bezier(.55,.085,.68,.53);}
+#div2 {animation-timing-function: cubic-bezier(.550,.055,.675,.19);}
+#div3 {animation-timing-function: cubic-bezier(.895,.03,.685,.22);}
+#div4 {animation-timing-function: cubic-bezier(.755,.05,.855,.06);}
+#div5 {animation-timing-function: cubic-bezier(.95,.05,.795,.035);}
+#div6 {animation-timing-function: cubic-bezier(.6,.04,.98,.335);}
+
+#div7 {animation-timing-function: cubic-bezier(.25,.46,.45,.94);}
+#div8 {animation-timing-function: cubic-bezier(.215,.61,.355,1);}
+#div9 {animation-timing-function: cubic-bezier(.165,.84,.44,1);}
+#div10 {animation-timing-function: cubic-bezier(.23,1,.32,1);}
+#div11 {animation-timing-function: cubic-bezier(.19,1,.22,1);}
+#div12 {animation-timing-function: cubic-bezier(.075,.82,.165,1);}
+
+#div13 {animation-timing-function: cubic-bezier(.455,.03,.515,.955);}
+#div14 {animation-timing-function: cubic-bezier(.645,.045,.355,1);}
+#div15 {animation-timing-function: cubic-bezier(.77,0,.175,1);}
+#div16 {animation-timing-function: cubic-bezier(.86,0,.07,1);}
+#div17 {animation-timing-function: cubic-bezier(1,0,0,1);}
+#div18 {animation-timing-function: cubic-bezier(.785,.135,.15,.86);}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
